@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    background: url(https://img.freepik.com/free-vector/adorable-animal-feet-print-pattern-background-kids_1017-44586.jpg?w=740&t=st=1693077037~exp=1693077637~hmac=7760190a86ad69a1ba05e50e582646f5040086f7d5aa32871a3c4f35c1ed8cd0);
+}
+
+
+#card {
+    border-radius: 10px;
+    height: 430px;
+    width: 320px;
+    background-color: rgb(255, 178, 90);
+    padding: 30px;
+    text-align: center;
+    border: 3px dotted  ;
+    
+}
+
+#card img {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+#card h1 {
+    font-size: 30px;
+    font-weight: 800;
+    margin: 15px 0;
+}
+
+#card h5 {
+    font-size: 27px;
+    color: red;
+    margin-bottom: 30px;
+}
+
+
+#card button {
+    background-color: cadetblue;
+    color: #fff;
+    font-weight: 700;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#card #remove {
+    background-color: #dadada;
+    color: #111;
+    margin-right: 8px;
+}
+
+
+i{
+    color: red;
+    font-size: 20px;
+}
+#op{
+    position: relative;
+}
+
+#op i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(1);
+    font-size: 40px;
+    opacity: 0;
+    transition: transform ease 0.5s;
+}
